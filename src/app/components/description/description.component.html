@@ -1,0 +1,12 @@
+<h1 id="caricamento" class="text-center mt-5" *ngIf="loading">Caricamento...</h1>
+<div class="container text-center" *ngIf="!loading">
+  <div class="card text-center">
+    <div class="card-header text-light bg-dark fs-1"><button id="backarrow" [routerLink]="['']" class="btn btn-dark fs-1">🢀</button>
+      <p class="mt-2">{{products.name}}</p>
+    </div>
+    <div class="card-body bg-muted fs-3">
+      <h5 class="card-title fs-1 mt-2 mb-4">SPECIFICHE TECNICHE</h5>
+      <p class="card-text mb-3">{{products.description}}</p>
+    </div>
+  </div>
+</div>

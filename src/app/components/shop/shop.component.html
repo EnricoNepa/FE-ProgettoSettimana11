@@ -1,0 +1,14 @@
+  <h1 id="caricamento" class="text-center mt-5" *ngIf="loading">Caricamento...</h1>
+  <div class="container d-flex flex-row justify-content-xl-start justify-content-md-center justify-content-center flex-wrap" *ngIf="!loading">
+    <div class="card m-3" style="width: 18rem;" *ngFor="let product of products">
+      <header class="card-header bg-dark"><h5 class="card-title text-center text-light fs-4">{{product.name}}</h5></header>
+      <div class="card-body text-center">
+        <img width="100%" src="assets/img1.png">
+      </div>
+      <div class="card-footer p-3 d-flex justify-content-evenly">
+        <a [routerLink]="['/product/', product.id]" class="btn btn-primary fs-4"><p class="fs-3 d-inline">ⓘ</p> Info</a>
+        <a (click)="addToCart(product)" class="btn btn-success fs-4">🛒{{product.price}}€</a>
+      </div>
+    </div>
+  </div>
+

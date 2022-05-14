@@ -1,0 +1,54 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "iPhone 11",
+      "price": 499,
+      "description": "Il cellulare ha uno schermo Liquid Retina LCD da 6,1 pollici dotato della nuova CPU Apple A13 Bionic. È stato introdotto un nuovo modulo con doppia fotocamera, entrambi da 12 megapixel, costituiti da un obiettivo grandagolare e uno ultra-grandagolare"
+    },
+    {
+      "id": 2,
+      "name": "iPhone XS",
+      "price": 269,
+      "description": "Descrizione. L'iPhone XS ha un design simile a quello dell'iPhone X ma dal lato hardware è dotato del chip A12 Bionic, costruito con un processo a 7 nanometri. Dispone di uno schermo OLED da 5.8 pollici ed è dotato di due telecamere posteriori da 12 megapixel e una fotocamera anteriore da 7 megapixel."
+    },
+    {
+      "id": 3,
+      "name": "OnePlus 7 Pro",
+      "price": 279,
+      "description": "Al top l'hardware di questo smartphone. Abbiamo il processore Snapdragon 855, la GPU Adreno 640, 6 GB di RAM (ma c'è anche da 8 e 12) e 128 GB di memoria interna UFS 3.0 nella versione più 'economica'. Abbiamo poi anche il supporto dual SIM, l'LTE 1,2Gbps e il Bluetooth 5.0. La batteria è poi una corposa 4000 mAh."
+    },
+    {
+      "id": 4,
+      "name": "One Plus Nord",
+      "price": 500,
+      "description": "OnePlus Nord è uno smartphone di fascia media con sistema operativo Android. Il display da 6,44 pollici di questo smartphone ha una risoluzione di FHD+ / 1080 x 2400 pixel ed è realizzato in tecnologia AMOLED. La fotocamera è dotata di stabilizzatore e questo aiuta a realizzare video e foto più nitide."
+    },
+    {
+      "id": 5,
+      "name": "Xiaomi Mi12",
+      "price": 799,
+      "description": "Xiaomi 12 è uno smartphone Android con caratteristiche all'avanguardia che lo rendono una scelta eccellente per ogni tipo di utilizzo, rappresentando uno dei migliori dispositivi mobili mai realizzati. Dispone di un grande display da 6.28 pollici e di una risoluzione da 2400x1080 pixel, fra le più elevate attualmente in circolazione."
+    },
+    {
+      "name": "Samsung Galaxy A22",
+      "price": 150,
+      "description": "Samsung Galaxy A22 è uno smartphone Android 11 Dual SIM del 2021, che monta una quadrupla fotocamera con una risoluzione di 48+8+2+2 MP con flash e una fotocamera per selfie da 13 MP e ha una memoria di 4GB RAM + 64GB.",
+      "id": 6
+    }
+  ],
+  "prices": [
+    {
+      "type": "1-Giorno",
+      "price": 25.99
+    },
+    {
+      "type": "2-Giorni",
+      "price": 9.99
+    },
+    {
+      "type": "5-Giorni",
+      "price": 2.99
+    }
+  ]
+}
